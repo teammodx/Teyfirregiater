@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sikkim2 Guide</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    .dialogue {
+      margin: 20px auto;
+      padding: 15px;
+      border: 2px solid #000;
+      background-color: #f9f9f9;
+      width: fit-content;
+      border-radius: 5px;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      color: #fff;
+      background-color: #007bff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+    .result-section {
+      margin-top: 20px;
+      padding: 20px;
+      border: 2px solid #000;
+      border-radius: 10px;
+      background-color: #f0f8ff;
+    }
+    .result-button {
+      background-color: #28a745;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .result-button:hover {
+      background-color: #218838;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sikkim2 Guide</h1>
+
+  <!-- Registration Section -->
+  <div class="dialogue">
+    <p>REGISTER THEN WORKING HACK OTHERWISE MY DON'T RISK</p>
+    <a class="button" href="https://sikkim2.com/#/register?invitationCode=35567134911" target="_blank">Register Here</a>
+  </div>
+
+  <!-- Wallet Section -->
+  <div class="dialogue">
+    <p>After registering, open the recharge page:</p>
+    <a class="button" href="https://sikkim2.com/#/wallet/Recharge" target="_blank">Go to Recharge</a>
+    <p>DEPOSIT 200₹-300₹</p>
+  </div>
+
+  <!-- Lottery Games Section -->
+  <div class="result-section">
+    <h2>💸 TEAM EARNING MODS 💸</h2>
+    <a class="button" href="https://sikkim2.com/#/home/AllLotteryGames/WinGo?id=1" target="_blank">Open Games</a>
+    <br>
+    <button class="result-button" onclick="showRandomResult()">TAP TO BUTTON GET RANDOM RESULT BIG/SMALL</button>
+    <p id="result-output" style="margin-top: 10px; font-size: 18px;"></p>
+  </div>
+
+  <script>
+    function showRandomResult() {
+      const results = ["BIG", "SMALL"];
+      const randomResult = results[Math.floor(Math.random() * results.length)];
+      document.getElementById('result-output').textContent = `Result: ${randomResult}`;
+    }
+  </script>
+</body>
+</html>
